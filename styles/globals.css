@@ -127,6 +127,7 @@ body {
 
 #history {
   position: absolute;
+  width: 32%;
   bottom: 5px;
   right: 194px;
   margin-bottom: 64px;
