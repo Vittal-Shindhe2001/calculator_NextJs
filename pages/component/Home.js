@@ -78,7 +78,7 @@ export default function Home() {
     }
   };
 
-  const MAX_DISPLAY_LENGTH = 10;
+  const MAX_DISPLAY_LENGTH = 15
   const displayExpression = expression.length > MAX_DISPLAY_LENGTH
     ? (
       <div>
