@@ -4,7 +4,7 @@ import { useEffect, useState, Suspense } from 'react';
 import Calculator_Skeleton from './component/Calculator_Skeleton';
 const Home = React.lazy(() => import('./component/Home'));
 
-export default function index() {
+export default function Index() {
     const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
